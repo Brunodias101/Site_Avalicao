@@ -44,10 +44,12 @@ body {
 
 .menu {
     width: 100%;
-    margin: auto;
+    margin-top: -20px;
+    margin-left: -10px;
     height: 60px;
     font-size: 20px;
     background-color: #1643a3;
+    text-align: center;
 }
 
 .menu ul li {
@@ -276,6 +278,7 @@ div.geral {
     float: left;
     position: relative;
     margin: 15px;
+    background-color: white;
 }
 
 .box_txt7 h2 {

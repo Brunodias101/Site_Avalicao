@@ -47,6 +47,5 @@ q:after {
 }
 
 table {
-    border-collapse: collapse;
-    border-spacing: 0;
+    align-items: center;
 }
