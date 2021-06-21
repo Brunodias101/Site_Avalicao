@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+input {
+    padding: 15px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    border: 1px solid #4ad6e9;
+}
+
+button {
+    background-color: dodgerblue;
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+#button_cadastro {
+    margin: 0 2em 0 2em;
+}
+
+#input_valor {
+    font-size: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+
+/*inicio da estelização */
+
+body {
+    font-family: "Century Ghotic";
+    font-size: 16px;
+    background-image: linear-gradient(90deg, cyan, blue);
+}
+
+#geral_home {
+    width: 100%;
+    margin: auto;
+}
+
+.menu {
+    width: 100%;
+    margin: auto;
+    height: 60px;
+    font-size: 20px;
+    background-color: #1643a3;
+}
+
+.menu ul li {
+    position: relative;
+    display: inline;
+    padding: 0 0 0 60px;
+    top: 10px;
+}
+
+div.menu_links {
+    margin: 5px 120px 0px 120px;
+    display: inline-block;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/*fim da estilização do site*/
+
+
+/*inicio da pagina inicial*/
+
+.box_txt {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+.caixa_texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 15px;
+    background-color: rgba( 0, 0, 0, 0.8);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 50px;
+    border-radius: 15px;
+    color: white;
+}
+
+div.texto_apresentação {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    text-align: center;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 25px;
+}
+
+#fundo_inicial {
+    width: 100%;
+    position: static;
+}
+
+.rodape {
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    position: absolute;
+    top: 97.8%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#rodape_cadrastro {
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/*fim da pagina inicial*/
+
+.box_txt2 {
+    width: 600px;
+    height: 280px;
+    float: left;
+    position: relative;
+    margin: 15px;
+}
+
+.box_txt2 h2 {
+    font-size: 27px;
+    color: #000;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*inicio da pagina CADASTRO*/
+
+#geral_cadastro {
+    width: 100%;
+    margin: auto;
+}
+
+#fundo_cadastro {
+    width: 100%;
+    background-color: #000;
+}
+
+div.geral {
+    width: 100%;
+    background-image: linear-gradient(90deg, cyan, blue);
+}
+
+#titulo_cadastro {
+    font-family: sans-serif;
+    color: rgb(19, 229, 236);
+}
+
+.box_txt3 {
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 15px;
+    background-color: rgba( 0, 0, 0, 0.7);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 35px;
+    border-radius: 15px;
+    color: white;
+    /* position: absolute;
+    width: 50%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba( 0, 0, 0, 0.7);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 50px;
+    border-radius: 15px;
+    color: white; */
+}
+
+
+/* .inputs {
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+.box_txt3 h1 {
+    font-size: 20px;
+    color: #FFF;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box_txt3 p {
+    text-align: justify;
+}
+
+.box_txt4 {
+    width: 100%;
+    height: 150px;
+    float: left;
+    position: relative;
+    margin: 15px;
+}
+
+.box_txt4 h2 {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.box_txt4 p {
+    text-align: justify;
+}
+
+
+/*fim pagina de CADASTRO */
+
+
+/*inicio pagina de AVALIAÇÃO*/
+
+.box_txt5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 15px;
+    background-color: rgba( 0, 0, 0, 0.7);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 35px;
+    border-radius: 15px;
+    color: white;
+}
+
+.box_txt5 h2 {
+    font-size: 27px;
+    color: #000;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*fim pagina de AVALIAÇÃO*/
+
+
+/*inicio pagina ÁREAS DA INSTITUIÇÃO*/
+
+.box_txt7 {
+    width: 500px;
+    height: 200px;
+    float: left;
+    position: relative;
+    margin: 15px;
+}
+
+.box_txt7 h2 {
+    font-size: 24px;
+    color: #000000;
+    font-weight: bold;
+    font-family: arial, helvetica, sans-serif;
+}
+
+.box_txt7 p {
+    text-align: justify;
+    color: #333;
+}
+
+.box_txt8 {
+    width: 500px;
+    height: 200px;
+    float: left;
+    position: relative;
+    margin: 15px;
+}
+
+.box_txt8 ul {
+    text-align: justify;
+    color: #000000;
+    font-size: 18px;
+}
+
+
+/*fim da pagina Setores*/
+
+
+/*Inicio da página Gráfico de Avaliação*/

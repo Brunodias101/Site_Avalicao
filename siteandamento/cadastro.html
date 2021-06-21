@@ -1,0 +1,116 @@
+<?php
+
+session_start();
+
+?>
+
+    <!doctype html>
+    <html>
+
+    <head>
+        <meta charset="utf-8">
+        <title>Cadastro | Pesquisa de Satisfação</title>
+        <link href="css/estilo.css" rel="stylesheet" type="text/css" />
+        <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+
+
+
+
+        <section class="section_geral">
+            <div class="geral">
+                <div id="geral_cadastro">
+                    <div id="fundo_cadastro">
+                        <div class="menu">
+                            <div class="menu">
+                                <ul>
+                                    <div class="menu_links">
+                                        <li><a href="cadastro.html" class="active">Termos de usos</a></li>
+
+                                    </div>
+                                    <div class="menu_links">
+                                        <li> JÁ TEM CADASTRO? <a href="index.html"> Entre com sua conta</a></li>
+
+                                    </div>
+
+
+                                </ul>
+                            </div>
+                            <ul>
+
+                            </ul>
+
+                            <div class="box_txt3">
+                                <p>
+                                    <h1 id="titulo_cadastro">Preencha as informações abaixo para realizar o cadastro</h1>
+                                </p> <br><br>
+
+                                <form method="POST" action="http://localhost/webprojeto/siteandamento/processa.php">
+                                    <div class="inputs">
+                                        <label>Nome completo:</label><br><br>
+                                        <input type="text" name="NomeCompleto" placeholder="Insira o nome completo">
+
+                                        <br>
+                                        <br> <label>Usuario:</label><br><br><input name="Usuario" type="text" placeholder="Insira o nome de usuario">
+                                        <br>
+                                        <br>
+                                        <label>Faculdade:</label><br><br> <input name="Faculdade" type="text" placeholder="Insira a sua unidade">
+                                        <br>
+                                        <br> <label>Curso:</label><br><br> <input name="Curso" type="text" placeholder="Insira seu Curso">
+                                        <br>
+                                        <br>
+                                        <label>CPF:</label><br><br><input name="CPF" type="text" placeholder="Insira seu CPF" maxlength="11">
+                                        <br>
+                                        <br> <label>Senha:</label><br><br><input name="Senha" type="password" placeholder="Insira uma senha">
+                                        <br>
+                                        <br>
+
+
+                                        <input id="button_cadastro" type="reset" value="Excluir">
+
+
+                                        <input id="button_cadastro" type="submit" value="Enviar">
+                                    </div>
+                                    <br>
+
+                                </form>
+
+
+
+
+
+                            </div>
+                        </div>
+
+
+                        <!--fim regue cadastro-->
+                        <!--fim box_txt4-->
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+        </section>
+
+        <section class="section_rodape">
+            <div class="rodape" id="rodape_cadrastro">
+                <p>
+                    <h1>Todos os direitos reservado ao grupo 7</h1>
+                </p>
+            </div>
+
+        </section>
+
+        <!-- fim rodape cadastro-->
+
+
+        <!--fim fundo cadastro-->
+
+    </body>
+
+    </html>
